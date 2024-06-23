@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.nav-bar{
+    height: 44px;
+    padding-left: 144.4px;
+    padding-right: 144.4px;
+    background-color: #1d1d1f;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+.apple-logo{
+    /* margin-left: 124.800px;
+    padding-left: 22px; */
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.nav-panel{
+    color: rgba(255, 255, 255, .65);
+    font-size: 12px;
+}
+
+.nav-panel a{
+    margin-left: 35px;
+    padding: 5px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 5px;
+}
+
+.icon{
+    color: rgba(255, 255, 255, .65);
+    display: flex;
+}
+
+.shop-icon{
+    margin-left: 40px;
+}
+
+.apple-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+
+.events{
+    font-size: 21px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    padding: 20px 0px 20px 200px;
+}
+
+.big-font{
+    color: white;
+    font-size: 52px;
+    font-weight: 600;
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.announce{
+    color: #f5f5f7;
+    font-size: 27px;
+    font-weight: 500;
+    background-color: black;
+    text-align: center;
+}
+
+.more{
+    text-align: center;
+    padding: 11px 21px;
+    color: white;
+    background-color: #0071e3;
+    width: 86px;
+    height: 20px;
+    border-radius: 40px;
+    font-weight: 400;
+
+  
+}
+
+.learn-more{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    background-color: black;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.iphone15pro{
+    margin-top: 12px;
+}
+
+.pro15-image{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* height: 500; */
+    margin-bottom: 12px;
+}
+
+.buy{
+    cursor: pointer;
+    height: 20px;
+    width: 50px;
+    color: #0071e3;
+    border: 1px solid #0071e3;
+    background-color: black;
+    text-align: center;
+    padding: 11px 21px;
+    border-radius: 40px;
+    margin: 0px 0px 0px 13px;
+}
+
+.tv-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apple-tv{
+    background-image: url(presumed-innocent1.avif);
+    background-size: cover;
+    height: 730px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.tv-heading{
+    display: flex;
+    color: white;
+    font-size: 40px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.tv-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.tv-briff{
+    color: white;
+    position: relative;
+    top: 500px;
+}
+
+.tv-briff p{
+    font-size: 25px;
+}
+
+.p-i{
+    font-size: 45px;
+    font-family: 'Copperplate', sans-serif;                                        
+}
+
+.footer{
+    margin: 0px 120px;
+    margin-top: 20px;
+    border-top: 1px solid #0000008F;
+}
+
+.footer-panel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel-option{
+    font-size: 12px;
+    color: #000000B8;
+    padding-top: 15px;
+}
+
+.panel-header{
+    color: #000000E0;
+    font-weight: 700;
+}
+
+.panel-element{
+    padding-top: 7px;
+}
+
+.copyright{
+    margin-top: 20px;
+    border-top: 1px solid #0000008F;
+    height: 60px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.copyright-tag{
+    color: #000000BF;
+    padding:0%;
+}
+
+.copyright-option{
+    margin-left: 40px;
+    color: #000000B8;
+    font-size: 12px;
+}
+
+.copyright-add{
+    position: absolute;
+    right: 120px;
+}
